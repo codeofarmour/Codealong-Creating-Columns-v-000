@@ -96,3 +96,7 @@ figcaption {
 [class*="col-"] { /*Attribute selector that says, anywhere there is a "col-", style it to have a margin-left of 2%-*/
   margin-left: 2%;
 }
+
+.first {
+  margin-left: 0%;
+}
