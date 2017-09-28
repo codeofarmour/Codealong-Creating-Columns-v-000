@@ -70,15 +70,17 @@ figcaption {
 #details a:active {
   color: red;
 }
+/*/////////Media/////////*/
 
+img, video, audio {
+  max-width: 100%;
+}
 /*/////////Layout/////////*/
 .wrapper {
   width: 960px;
   margin: 0 auto;
   background-color: #eee;
 }
-
-
 .col-1 {
   float: left;
   width: 32%;
@@ -100,11 +102,9 @@ figcaption {
   height: 0;
   line-height: 0;
 }
-
 [class*="col-"] { /*Attribute selector that says, anywhere there is a "col-", style it to have a margin-left of 2%-*/
   margin-left: 2%;
 }
-
 .first {
   margin-left: 0%;
 }
