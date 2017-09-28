@@ -79,11 +79,10 @@ img, video, audio {
 * { /* This will include both padding and border
 into the width of the box, which is compatible with all browsers
 and ensures a quality display despite browser being used */
-  -webkit-box-sizing: border-box; 
-  -moz-box-sizing: border-box; 
-  box-sizing: border-box;   
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 .wrapper {
   width: 960px;
   margin: 0 auto;
