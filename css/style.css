@@ -85,7 +85,6 @@ and ensures a quality display despite browser being used */
 .wrapper {
   width: 960px;
   margin: 0 auto;
-  background-color: #eee;
 }
 .col-1 {
   float: left;
