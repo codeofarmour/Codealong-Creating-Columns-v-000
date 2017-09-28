@@ -76,6 +76,12 @@ img, video, audio {
   max-width: 100%;
 }
 /*/////////Layout/////////*/
+* {
+  box-sizing: border-box; /* This will include both padding and border
+  into the width of the box, which is compatible with all browsers
+  and ensures a quality display despite browser being used */
+}
+
 .wrapper {
   width: 960px;
   margin: 0 auto;
